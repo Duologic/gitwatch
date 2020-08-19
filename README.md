@@ -1,6 +1,6 @@
 # gitwatch
 
-Simple tool that can pulls in the latest of a git branch every minute.
+Simple tool that can pull in the latest of a git branch every minute.
 
 The intend is to run this as a sidecar to provide configuration or data on the filesystem in a GitOps-like fashion.
 
