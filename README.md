@@ -27,6 +27,6 @@ the `-config`.
 docker run --rm -ti \
     -v ${HOME}/.ssh:/ssh \
     -e GIT_SSH_COMMAND='ssh -i /ssh/id_rsa' \
-    gitwatch \
+    duologic/gitwatch \
     --repository git@github.com:example/repo.git
 ```
